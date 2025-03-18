@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Letter with Video</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="letter-container">
+    <h1>HELLOO BABA, YOU DID GREAT TODAY, AND I AM SO SO PROUD OF YOUU!!!</h1>
+    <p>Here's a little surprise for you!</p>
+    <button onclick="showPopup()">Open Surprise</button>
+  </div>
+
+  <div class="overlay" id="overlay" onclick="hidePopup()"></div>
+  <div class="popup-video" id="popup">
+    <video id="surpriseVideo" controls>
+      <source src="image/videobg.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
